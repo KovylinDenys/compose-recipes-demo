@@ -1,4 +1,4 @@
-package com.recipe.demo
+package com.recipe.feature
 
 import org.junit.Test
 
