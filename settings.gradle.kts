@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "compose-recipes-demo"
 include(":app")
- 
+include(":core")
+include(":feature")
