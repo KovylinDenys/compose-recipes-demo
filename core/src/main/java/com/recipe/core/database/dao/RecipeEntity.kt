@@ -8,6 +8,6 @@ data class RecipeEntity(
     @PrimaryKey val id: Int,
     val title: String,
     val ingredients: List<String>,
-    val instructions: String,
+    val shortDescription: String,
     val imageUrl: String
 )

@@ -39,9 +39,6 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
 
-    // --- Compose ---
-    implementation(libs.material)
-
     // --- DI ---
     implementation(libs.koin.android)
 

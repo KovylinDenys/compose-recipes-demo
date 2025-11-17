@@ -6,12 +6,14 @@ import com.recipe.core.database.dao.RecipeDao
 import com.recipe.core.mapper.toDomain
 import com.recipe.core.mapper.toEntity
 import com.recipe.core.model.Recipe
+import com.recipe.core.model.RecipeDetails
 import com.recipe.core.network.api.RecipesApi
 
 class RecipesRepositoryImpl(
     private val api: RecipesApi,
     private val recipeDao: RecipeDao
 ) : RecipesRepository {
+
     override suspend fun getRecipes(forceRefresh: Boolean): DataResult<List<Recipe>> {
         return safeCall {
 
@@ -22,6 +24,12 @@ class RecipesRepositoryImpl(
             }
 
             recipeDao.getAll().map { it.toDomain() }
+        }
+    }
+
+    override suspend fun getRecipeDetails(id: Int): DataResult<RecipeDetails> {
+        return safeCall {
+            api.getRecipeDetails(id).toDomain()
         }
     }
 }

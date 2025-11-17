@@ -1,6 +1,7 @@
 package com.recipe.app
 
 import android.app.Application
+import com.recipe.app.di.FakeApiModule
 import com.recipe.core.di.DatabaseModule
 import com.recipe.core.di.NetworkModule
 import com.recipe.core.di.RepositoryModule
@@ -16,6 +17,7 @@ class App : Application() {
         startKoin {
             androidContext(this@App)
             modules(
+                FakeApiModule,
                 NetworkModule,
                 DatabaseModule,
                 RepositoryModule,
