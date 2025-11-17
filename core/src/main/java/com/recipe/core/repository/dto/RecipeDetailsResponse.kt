@@ -1,9 +1,10 @@
 package com.recipe.core.repository.dto
 
-data class RecipeResponse(
+data class RecipeDetailsResponse(
     val id: Int,
     val title: String,
     val ingredients: List<String>,
-    val shortDescription: String,
+    val fullDescription: String,
+    val instructions: String,
     val imageUrl: String
 )

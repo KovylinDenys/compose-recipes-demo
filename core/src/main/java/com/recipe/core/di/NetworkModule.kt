@@ -6,7 +6,7 @@ import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 
-const val API_BASE_URL = "demo.api/"
+const val API_BASE_URL = "demo.api"
 
 val NetworkModule = module {
     single {

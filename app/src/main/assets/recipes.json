@@ -1,0 +1,102 @@
+[
+  {
+    "id": 0,
+    "title": "recipe 0",
+    "ingredients": [
+      "ingredient 0.0",
+      "ingredient 0.1"
+    ],
+    "shortDescription": "short description 0",
+    "imageUrl": "image url 0"
+  },
+  {
+    "id": 1,
+    "title": "recipe 1",
+    "ingredients": [
+      "ingredient 1.0",
+      "ingredient 1.1"
+    ],
+    "shortDescription": "short description 1",
+    "imageUrl": "image url 1"
+  },
+  {
+    "id": 2,
+    "title": "recipe 2",
+    "ingredients": [
+      "ingredient 2.0",
+      "ingredient 2.1"
+    ],
+    "shortDescription": "short description 2",
+    "imageUrl": "image url 2"
+  },
+  {
+    "id": 3,
+    "title": "recipe 3",
+    "ingredients": [
+      "ingredient 3.0",
+      "ingredient 3.1"
+    ],
+    "shortDescription": "short description 3",
+    "imageUrl": "image url 3"
+  },
+  {
+    "id": 4,
+    "title": "recipe 4",
+    "ingredients": [
+      "ingredient 4.0",
+      "ingredient 4.1"
+    ],
+    "shortDescription": "short description 4",
+    "imageUrl": "image url 4"
+  },
+  {
+    "id": 5,
+    "title": "recipe 5",
+    "ingredients": [
+      "ingredient 5.0",
+      "ingredient 5.1"
+    ],
+    "shortDescription": "short description 5",
+    "imageUrl": "image url 5"
+  },
+  {
+    "id": 6,
+    "title": "recipe 6",
+    "ingredients": [
+      "ingredient 6.0",
+      "ingredient 6.1"
+    ],
+    "shortDescription": "short description 6",
+    "imageUrl": "image url 6"
+  },
+  {
+    "id": 7,
+    "title": "recipe 7",
+    "ingredients": [
+      "ingredient 7.0",
+      "ingredient 7.1"
+    ],
+    "shortDescription": "short description 7",
+    "imageUrl": "image url 7"
+  },
+  {
+    "id": 8,
+    "title": "recipe 8",
+    "ingredients": [
+      "ingredient 8.0",
+      "ingredient 8.1"
+    ],
+    "shortDescription": "short description 8",
+    "imageUrl": "image url 8"
+  },
+  {
+    "id": 9,
+    "title": "recipe 9",
+    "ingredients": [
+      "ingredient 9.0",
+      "ingredient 9.1"
+    ],
+    "shortDescription": "short description 9",
+    "imageUrl": "image url 9"
+  }
+]

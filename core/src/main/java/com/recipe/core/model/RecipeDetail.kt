@@ -1,9 +1,10 @@
 package com.recipe.core.model
 
-data class Recipe(
+data class RecipeDetails(
     val id: Int,
     val title: String,
     val ingredients: List<String>,
-    val shortDescription: String,
+    val fullDescription: String,
+    val instructions: String,
     val imageUrl: String
 )
